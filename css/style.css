@@ -267,12 +267,14 @@ height: 38px; */
   align-items: center;
 }
 .let__title {
+  width: 580px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 157%;
   padding-right: 31px;
+  padding-bottom: 33px;
   /* or 79px */
 
   color: #ffffff;
@@ -285,6 +287,7 @@ height: 38px; */
   line-height: 157%;
   padding-right: 31px;
   /* or 39px */
+  padding-bottom: 57px;
 
   color: #ffffff;
 }
@@ -315,36 +318,96 @@ height: 38px; */
   position: relative;
   width: 638.69px;
   height: 573.26px;
-  background: rgba(1, 153, 109, 0.2);
+  background: rgba(1, 153, 109, 0.2)
+    url(/img/court-cook-TSZo17r3m0s-unsplash-removebg.png) no-repeat;
   border-radius: 18px;
   /* align-item: center; */
 }
 .our__container {
-  position: relative;
 }
 .our__card {
   position: absolute;
   width: 296.14px;
   height: 293.9px;
-  /* border: red 1px solid; */
-  filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+  border: #000 1px solid;
+  margin-left: -100px;
+  /* margin-top: 1200px; */
+  background: #fff;
+  padding-bottom: 15px;
+  top: 350px;
 }
 .card__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.49px;
+  line-height: 157%;
+  /* or 23px */
+
+  text-align: center;
+  padding-top: 23px;
+  padding-bottom: 8px;
+}
+
+.line {
+  width: 150px;
+  margin-left: 65px;
+  margin-bottom: 14px;
 }
 .card__img {
+  margin-left: 112px;
+  /* padding-left: 61px; */
   width: 69.73px;
   height: 64.15px;
   border-radius: 50%;
   background: rgba(1, 153, 109, 0.2)
     url(/img/court-cook-TSZo17r3m0s-unsplash-removebg.png);
+  margin-bottom: 11px;
 }
 .card__name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.9351px;
+  line-height: 157%;
+  /* identical to box height, or 19px */
+
+  text-align: center;
+
+  color: #000000;
+  margin-bottom: 20px;
 }
 .card__content {
+  padding-left: 61px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.9292px;
+  line-height: 157%;
+  /* identical to box height, or 25px */
+
+  color: #000000;
+  padding-bottom: 16px;
 }
 .card__list {
 }
 .card__item {
+  padding-left: 61px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.6195px;
+  line-height: 157%;
+  list-style: none;
+  /* identical to box height, or 17px */
+
+  /* text-align: center; */
+
+  color: #000000;
+  padding-bottom: 16px;
+}
+.card__item:nth-last-child() {
+  margin-bottom: 30px;
 }
 .our__description {
   padding-left: 87px;
